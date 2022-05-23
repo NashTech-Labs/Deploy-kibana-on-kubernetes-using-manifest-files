@@ -22,8 +22,8 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: SERVER_NAME
-          value: "kibana.s9.devopscloud.link"
+          value: "<Ingress Host Name>"
         - name: ELASTICSEARCH_URL
-          value: "http://elasticsearch.logging.svc.cluster.local:9200"
+          value: "<ElasticSearch Url>:<Port>"
         - name: SERVER_HOST
           value: "0"
